@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/head_background"
+    android:gravity="center">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/head_setting"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="5.0dip"
+        android:id="@+id/setting"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:onClick="settings"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/head_contacts"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="5.0dip"
+        android:id="@+id/contacts"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:onClick="contacts"
+        />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/head_write"
+        android:background="@android:color/transparent"
+        android:layout_marginRight="5.0dip"
+        android:id="@+id/compose"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:onClick="composes"
+        />
+</LinearLayout>
